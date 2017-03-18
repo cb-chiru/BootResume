@@ -1,0 +1,135 @@
+.carousel-caption {
+   position: relative;
+   top:35%;
+}
+
+#myname
+{
+	letter-spacing: 30px;
+}
+
+.mouse-icon {
+	position: relative;
+	border: 2px solid #fff;
+	border-radius: 16px;
+	height: 50px;
+	width: 30px;
+	margin: 0 auto;
+	display: block;
+	z-index: 10;
+}
+
+.mouse-icon .wheel {
+	-webkit-animation-name: drop;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+	animation-name: drop;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+}
+
+.mouse-icon .wheel {
+	position: relative;
+	border-radius: 10px;
+	background: #fff;
+	width: 4px;
+	height: 10px;
+	top: 4px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.progress-box .progress-bar{
+	transition-property:all;
+	transition-timing-function:cubic-bezier(.7,1,.7,1);
+}
+
+.progress-box .progress{
+	box-shadow:none;
+	height:3px;
+}
+.progress-box .progress-bar{
+	transition-duration:2s;
+}
+.bg-color-base{
+	background:black!important;
+}
+
+.color-heading{
+	color:!important;
+}
+
+
+#services {
+  background-color:;
+  color:#fff;
+  text-align:center;
+  background-color:	#0A0A13;
+}
+
+.services {
+	display:block;
+	overflow:hidden;
+	margin-top:50px
+}
+
+#services h2{
+  color: #fff;
+  border-color: #fff;
+  margin-bottom:35px
+}
+
+.single-service {
+	background-color: rgba(0, 0, 0, 1);
+	color: white;
+	padding:30px;
+	transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-webkit-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+}
+
+.single-service p {
+	text-align:justify;
+}
+
+.single-service i {
+	text-align:center;
+	font-size:80px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	height: 150px;
+	line-height: 150px;
+	width: 150px;
+	color:#43484E;
+	transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-webkit-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+}
+
+.single-service:hover {
+	background-color: #2e89b3;
+	color: black;
+}
+
+.single-service:hover i {
+	color:#2e89b3;
+	-moz-transform: scale(1.1) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	transform: scale(1.1) rotate(360deg);
+}
+
+.single-service:hover h2{
+	color: deepskyblue;
+}
